@@ -9,29 +9,37 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.lang.invoke.MethodHandles;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 public class HomeworkServiceImpl implements HomeworkService {
+    private static final Logger logger = LogManager.getLogger(MethodHandles.lookup().lookupClass());
     private RandomUtil randomUtil = new RandomUtil();
+
     @Override
     public void runFirstTask() {
         int count = 3;
         int x = randomUtil.getAnyInt();
         int y = randomUtil.getAnyInt();
         int z = randomUtil.getAnyInt();
-        System.out.println("x = " + x + " y = " + y + " z = " + z);
+        logger.debug("x = " + x + " y = " + y + " z = " + z);
         if (x > z) {
             int sum;
             sum = x + y;
-            System.out.println("x + y = " + sum);
+            logger.debug("x + y = " + sum);
         } else {
-            System.out.println("z = " + z);
+            logger.debug("z = " + z);
         }
         int average = x + y + z / count;
-        System.out.println("Average " + average);
+        logger.info("Average = " + average);
     }
 
     @Override
@@ -40,15 +48,9 @@ public class HomeworkServiceImpl implements HomeworkService {
         int[] integerArray = getIntegerArray(arrayCapacity);
         int max = findMax(integerArray);
         int min = findMin(integerArray);
-        System.out.println("Min = " + min + " Max = " + max);
-        for (int i : integerArray) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+        logger.debug("Min = " + min + " Max = " + max);
         replaceMaxBySpecificState(integerArray, max, min);
-        for (int i : integerArray) {
-            System.out.print(i + " ");
-        }
+        logger.error(Arrays.toString(integerArray));
     }
 
     @Override
@@ -73,11 +75,16 @@ public class HomeworkServiceImpl implements HomeworkService {
 
         int nextInt = randomUtil.getAnyInt();
 
-        String directoryPath = "opt";
-        String filePathName = "opt/cars.txt";
-        File file = createFileAndDirectories(filePathName, directoryPath);
-        if (carsMap.containsKey(nextInt)) {
-            writeCarsToFile(file, carsMap.get(nextInt));
+        if (nextInt < 1 || nextInt > 3) {
+            logger.error("Such engineCapacity is not allowed");
+        } else {
+            logger.info("Entered engineCapacity " + nextInt + " searching begins");
+            String directoryPath = "opt";
+            String filePathName = "opt/cars.txt";
+            File file = createFileAndDirectories(filePathName, directoryPath);
+            if (carsMap.containsKey(nextInt)) {
+                writeCarsToFile(file, carsMap.get(nextInt));
+            }
         }
     }
 

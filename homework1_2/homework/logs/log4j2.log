@@ -1,0 +1,27 @@
+2019-12-14 22:31:12,502 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] x = 1460469980
+2019-12-14 22:45:12,869 INFO r.m.r.s.i.HomeworkServiceImpl [main] x + y = -1628611023
+2019-12-14 22:49:02,260 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] x = 1051753924 y = 411437673 z = -1503160861
+2019-12-14 22:49:02,262 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] x + y = 1463191597
+2019-12-14 22:49:30,649 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] x = -1088170708 y = 586938279 z = 1787617975
+2019-12-14 22:49:30,650 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] z = 1787617975
+2019-12-14 22:49:30,650 INFO r.m.r.s.i.HomeworkServiceImpl [main] Average 94640229
+2019-12-14 22:52:16,434 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] Min = -273 Max = 283
+2019-12-14 22:53:17,731 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] Min = -260 Max = 291
+2019-12-14 22:55:09,447 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] Min = -293 Max = -21
+2019-12-14 22:55:09,449 ERROR r.m.r.s.i.HomeworkServiceImpl [main] [-280, -293, -256, 6153, -141, -34, -45, -31, -50, -35]
+2019-12-14 22:58:10,680 DEBUG r.m.r.s.i.HomeworkServiceImpl [main] Min = -291 Max = 289
+2019-12-14 22:58:10,682 ERROR r.m.r.s.i.HomeworkServiceImpl [main] [268, 174, 64, -38, -89, -100, -211, 142, -291, -84099]
+2019-12-14 22:58:48,854 INFO r.m.r.s.i.HomeworkServiceImpl [main] [Name0 Mercedes 2
+, Name1 Mercedes 3
+, Name2 Mercedes 1
+, Name3 Mercedes 1
+, Name4 Volkswagen 2
+, Name5 Volkswagen 1
+, Name6 Mercedes 1
+, Name7 Volkswagen 3
+, Name8 Audi 1
+, Name9 Mercedes 2
+]
+2019-12-14 22:59:38,338 ERROR r.m.r.s.i.HomeworkServiceImpl [main] Such engineCapacity is not allowed
+2019-12-14 23:01:08,637 ERROR r.m.r.s.i.HomeworkServiceImpl [main] Such engineCapacity is not allowed
+2019-12-14 23:01:13,567 ERROR r.m.r.s.i.HomeworkServiceImpl [main] Such engineCapacity is not allowed
