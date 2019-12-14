@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ru.mail.romanov1234567890987.AppTest" time="0.147" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework\target\test-classes;D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework\target\classes;C:\Users\Roman\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Roman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Roman\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;C:\Users\Roman\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\opt\java\java8\jdk\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Roman\AppData\Local\Temp\surefire5146195057753528317\surefirebooter1474428992137360596.jar C:\Users\Roman\AppData\Local\Temp\surefire5146195057753528317 2019-12-14T23-05-45_840-jvmRun1 surefire4689704846460099719tmp surefire_05845388213084750033tmp"/>
+    <property name="surefire.test.class.path" value="D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework\target\test-classes;D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework\target\classes;C:\Users\Roman\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Roman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Roman\.m2\repository\org\apache\logging\log4j\log4j-core\2.2\log4j-core-2.2.jar;C:\Users\Roman\.m2\repository\org\apache\logging\log4j\log4j-api\2.2\log4j-api-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Roman"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\opt\java\java8\jdk\jre"/>
+    <property name="basedir" value="D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Roman\AppData\Local\Temp\surefire5146195057753528317\surefirebooter1474428992137360596.jar"/>
+    <property name="sun.boot.class.path" value="D:\opt\java\java8\jdk\jre\lib\resources.jar;D:\opt\java\java8\jdk\jre\lib\rt.jar;D:\opt\java\java8\jdk\jre\lib\sunrsasign.jar;D:\opt\java\java8\jdk\jre\lib\jsse.jar;D:\opt\java\java8\jdk\jre\lib\jce.jar;D:\opt\java\java8\jdk\jre\lib\charsets.jar;D:\opt\java\java8\jdk\jre\lib\jfr.jar;D:\opt\java\java8\jdk\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="Roman"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\opt\java\java8\jdk\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Roman\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Roman\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="D:\Уроки Java JD2\JavaEterpriseCource\homework1_2\homework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\opt\java\java8\jdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.2\bin\;C:\Program Files\Git\cmd;d:\quartus\bin;%MAVEN_HOME%\bin;C:\Users\Roman\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3\bin;D:\opt\java\java8\jdk\bin;D:\Microsoft VS Code\bin;C:\Users\Roman\AppData\Local\GitHubDesktop\bin;D:\opt\maven\apache-maven-3.6.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="D:\opt\java\java8\jdk\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="ru.mail.romanov1234567890987.AppTest" time="0.002"/>
+</testsuite>
