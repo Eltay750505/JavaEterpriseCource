@@ -1,1 +1,1 @@
-# Lessons directories
+# Lesson directories
